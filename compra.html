@@ -1,0 +1,102 @@
+<!-- José Rubens Martinez Francisco Junior 835925 -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mtz Cars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="compra.css">
+</head>
+<body>
+    <header>
+        <section class="container">
+            <a href="index.html">
+                <figure>
+                    <img src="./assets/imagens/logo.png" alt="Logo Mtz">
+                </figure>
+            </a>
+            
+            <nav>
+                <a href="lista.html">LISTA DE VEÍCULOS</a>
+                <a href="contato.html">ENTRE EM CONTATO</a>
+                <a href="trabalhe.html">TRABALHE CONOSCO</a>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <h1 class="logo">Mtz <span>Cars</span></h1>
+        <h2 class="titulo">REALIZAR O PEDIDO</h2>
+        <section class="container">
+            <form action="pgSucessoPedido.html">
+                <P>INFORMAÇÕES PARA CONTATO</P>
+                <label for="nome">
+                    Nome: <input type="text" name="nome">
+                </label>
+                <label for="idade">
+                    Idade<input type="number" name="idade">
+                </label>
+                <label for="telefone">
+                    Telefone<input type="number" name="telefone">
+                </label>
+                <p>ENDEREÇO</p>
+                <label for="rua">
+                    <input type="text" name="rua">
+                </label>
+                <label for="bairro">
+                    Bairro<input type="text" name="bairro">
+                </label>
+                <label for="cidade">
+                    Cidade<input type="text" name="cidade">
+                </label>
+                <label for="estado">
+                    Sigla do estado<input type="text" name="estado">
+                </label>
+                <p>SELECIONE O VEÍCULO DESEJADO</p>
+                <label for="veiculos">Veículos disponíveis</label>
+                <select name="veiculos" id="veiculos">
+                    <optgroup label="Carros">
+                        <option value="s5">BMW Série 5</option>
+                        <option value="rs4">Audi RS4</option>
+                        <option value="s6">BMW Série 6</option>
+                        <option value="gt">Mustang GT</option>
+                        <option value="f5">Ferrari F5</option>
+                        <option value="mce">Mercedes Classe E</option>
+                    </optgroup>
+                    <optgroup label="Motos">
+                        <option value="mt">Motoca</option>
+                        <option value="mtd">Motodouble</option>
+                        <option value="bs">Besourinha</option>
+                        <option value="bg">A Braba GT</option>
+                        <option value="sx">Moto Série X</option>
+                        <option value="rce">Rumble Classe E</option>
+                    </optgroup>
+                </select>
+                <p>Ao clicar em comprar, seu pedido será enviado para a concessionária e algum representante entrará em contato com você!</p>
+                <input class="btn" type="submit" value="Comprar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section class="container">
+            <nav>
+                <a href="index.html">Página inicial</a>
+                <a href="lista.html">Lista de Carros</a>
+                <a href="contato.html">Entre em contato</a>
+                <a href="trabalhe.html">Trabalhe conosco</a>
+            </nav>
+            <article>
+                <p>TODOS OS DIREITOS RESERVADOS</p>
+                <p><span><strong>MTZ CARS</strong></span></p>
+                <p>DESENVOLVIDO POR MARTINHO O BRABO</p>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>
